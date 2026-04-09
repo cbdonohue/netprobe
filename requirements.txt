@@ -1,0 +1,11 @@
+# netprobe runtime requirements
+# BCC Python bindings are installed via OS package manager, not pip.
+# See README.md → Installation for details.
+
+# pyroute2: used for optional network namespace / interface introspection
+pyroute2>=0.7.0
+
+# Standard library only for core functionality; no additional pip deps needed.
+# Dev / testing deps:
+# pytest
+# pytest-cov
